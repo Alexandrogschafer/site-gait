@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <clipPath id="hexClipIcon">
+      <polygon points="60,10 100.36,33.5 100.36,80.5 60,104 19.64,80.5 19.64,33.5" />
+    </clipPath>
+  </defs>
+
+  <polygon points="60,10 100.36,33.5 100.36,80.5 60,104 19.64,80.5 19.64,33.5"
+    fill="none" stroke="#1F3A5F" stroke-width="4"/>
+
+  <g clip-path="url(#hexClipIcon)" opacity="0.35">
+    <path d="M 5 92 Q 45 68 62 86 Q 82 106 118 82" fill="none" stroke="#2E6171" stroke-width="3"/>
+    <path d="M 5 106 Q 45 84 62 100 Q 82 118 118 98" fill="none" stroke="#2E6171" stroke-width="2.4"/>
+  </g>
+
+  <g stroke="#1F3A5F" stroke-width="2.2">
+    <line x1="49" y1="46" x2="70" y2="49"/>
+    <line x1="49" y1="46" x2="35" y2="70"/>
+    <line x1="35" y1="70" x2="55" y2="82"/>
+    <line x1="55" y1="82" x2="70" y2="49"/>
+  </g>
+  <circle cx="70" cy="49" r="5.6" fill="#BA7B44"/>
+  <circle cx="49" cy="46" r="5.6" fill="#1F3A5F"/>
+  <circle cx="35" cy="70" r="5.6" fill="#3B6EA5"/>
+  <circle cx="55" cy="82" r="5.6" fill="#2E6171"/>
+</svg>

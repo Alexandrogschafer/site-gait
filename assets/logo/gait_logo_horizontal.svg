@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 172" width="620" height="172">
+  <defs>
+    <clipPath id="hexClip">
+      <polygon points="80,18 116.37,39 116.37,81 80,102 43.63,81 43.63,39" />
+    </clipPath>
+  </defs>
+
+  <!-- ===== Icon: spatial-index hex cell with data-network + contour ===== -->
+  <g transform="translate(0,27)">
+    <polygon points="80,18 116.37,39 116.37,81 80,102 43.63,81 43.63,39"
+      fill="none" stroke="#1F3A5F" stroke-width="3.2" stroke-linejoin="round"/>
+
+    <!-- terrain contour, clipped inside the hex -->
+    <g clip-path="url(#hexClip)" opacity="0.35">
+      <path d="M 30 88 Q 65 68 80 84 Q 98 102 130 80" fill="none" stroke="#2E6171" stroke-width="2.4"/>
+      <path d="M 30 100 Q 65 82 80 96 Q 98 112 130 94" fill="none" stroke="#2E6171" stroke-width="2"/>
+    </g>
+
+    <!-- data-network graph -->
+    <g stroke="#1F3A5F" stroke-width="1.8">
+      <line x1="70" y1="52" x2="88" y2="55"/>
+      <line x1="70" y1="52" x2="58" y2="72"/>
+      <line x1="58" y1="72" x2="76" y2="82"/>
+      <line x1="76" y1="82" x2="88" y2="55"/>
+    </g>
+    <circle cx="88" cy="55" r="4.6" fill="#BA7B44"/>
+    <circle cx="70" cy="52" r="4.6" fill="#1F3A5F"/>
+    <circle cx="58" cy="72" r="4.6" fill="#3B6EA5"/>
+    <circle cx="76" cy="82" r="4.6" fill="#2E6171"/>
+  </g>
+
+  <!-- ===== Wordmark ===== -->
+  <g transform="translate(150,0)">
+    <text x="0" y="76" font-family="Arial, Helvetica, sans-serif" font-weight="700"
+      font-size="52" letter-spacing="4" fill="#1F3A5F">GAIT</text>
+    <text x="2" y="102" font-family="Arial, Helvetica, sans-serif" font-weight="600"
+      font-size="13.5" letter-spacing="1.6" fill="#5A5A5A">GRUPO DE PESQUISA EM ANÁLISE ESPACIAL</text>
+    <text x="2" y="120" font-family="Arial, Helvetica, sans-serif" font-weight="600"
+      font-size="13.5" letter-spacing="1.6" fill="#5A5A5A">E INTELIGÊNCIA TERRITORIAL</text>
+    <rect x="2" y="132" width="240" height="2.4" fill="#BA7B44"/>
+  </g>
+</svg>
