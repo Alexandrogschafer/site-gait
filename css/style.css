@@ -251,7 +251,7 @@ ul {
 
 /* ===== Hero ===== */
 .hero {
-  padding: 100px 0 88px;
+  padding: 100px 0 96px;
 }
 
 .hero-inner {
@@ -816,7 +816,7 @@ h2.breadcrumb-current {
 /* ===== Responsive ===== */
 @media (max-width: 860px) {
   .hero {
-    padding: 76px 0 64px;
+    padding: 76px 0 72px;
   }
 
   .section {
