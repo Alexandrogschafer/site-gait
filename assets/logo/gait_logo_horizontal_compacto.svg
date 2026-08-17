@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1070" height="615" viewBox="0 0 1070 615" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="290" viewBox="0 0 840 290" role="img" aria-labelledby="title desc">
   <title id="title">GAIT</title>
-  <desc id="desc">Logo do Grupo de Pesquisa em Análise Espacial e Inteligência Territorial</desc>
+  <desc id="desc">Logo horizontal GAIT</desc>
 
   <defs>
     <linearGradient id="name-navy" x1="0" y1="0" x2="0" y2="1">
@@ -34,7 +34,7 @@
   </defs>
 
   <!-- Símbolo territorial vetorizado a partir da referência fornecida -->
-  <g clip-path="url(#symbol-clip)">
+  <g clip-path="url(#symbol-clip)" transform="translate(-28 -34) scale(.64)">
     <rect x="80" y="95" width="315" height="370" fill="url(#sage)"/>
 
     <!-- Maciço verde à esquerda -->
@@ -60,7 +60,7 @@
   </g>
 
   <!-- Nome GAIT: letras vetoriais -->
-  <g aria-label="GAIT">
+  <g aria-label="GAIT" transform="translate(-124 -90)">
     <!-- G -->
     <path fill="url(#name-navy)" d="M548 164 C512 135 459 140 431 173 C402 208 404 266 435 298 C466 330 521 332 557 306 L557 238 L497 238 L497 264 L527 264 L527 290 C505 305 474 302 456 283 C437 262 436 221 454 198 C472 175 508 170 531 188 Z"/>
     <!-- A -->
@@ -71,12 +71,4 @@
     <path fill="url(#name-navy)" d="M775 147 H930 V177 H868 V322 H837 V177 H775 Z"/>
   </g>
 
-  <rect x="453" y="358" width="480" height="7" rx="3.5" fill="#7d9481"/>
-
-  <!-- Nome por extenso -->
-  <g class="small" font-size="25" letter-spacing="4.1">
-    <text x="453" y="410">GRUPO DE PESQUISA EM</text>
-    <text x="453" y="459">ANÁLISE ESPACIAL E</text>
-    <text x="453" y="508">INTELIGÊNCIA TERRITORIAL</text>
-  </g>
 </svg>

@@ -1,26 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="330" height="385" viewBox="70 90 330 385" role="img" aria-labelledby="icon-title icon-desc">
+  <title id="icon-title">GAIT</title>
+  <desc id="icon-desc">Ícone do Grupo de Pesquisa em Análise Espacial e Inteligência Territorial</desc>
+
   <defs>
-    <clipPath id="hexClipIcon">
-      <polygon points="60,10 100.36,33.5 100.36,80.5 60,104 19.64,80.5 19.64,33.5" />
+    <linearGradient id="sage" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8bab6d"/>
+      <stop offset="1" stop-color="#b2b98c"/>
+    </linearGradient>
+    <linearGradient id="forest" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#245735"/>
+      <stop offset="1" stop-color="#3f7b43"/>
+    </linearGradient>
+    <linearGradient id="sand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#dfc394"/>
+      <stop offset="1" stop-color="#c88d50"/>
+    </linearGradient>
+    <clipPath id="symbol-clip">
+      <path d="M235 105 C247 107 258 115 269 121 L358 170 C375 180 384 188 384 205 L384 345 C384 365 376 379 360 388 L258 445 C246 452 233 454 220 448 L115 392 C99 383 91 369 91 350 L91 205 C91 187 99 177 116 167 L209 115 C217 110 226 105 235 105 Z"/>
     </clipPath>
+    <style>
+      .contour { fill:none; stroke:#f5f3eb; stroke-width:7; stroke-linecap:round; stroke-linejoin:round; }
+    </style>
   </defs>
 
-  <polygon points="60,10 100.36,33.5 100.36,80.5 60,104 19.64,80.5 19.64,33.5"
-    fill="none" stroke="#1F3A5F" stroke-width="4"/>
+  <g clip-path="url(#symbol-clip)">
+    <rect x="80" y="95" width="315" height="370" fill="url(#sage)"/>
 
-  <g clip-path="url(#hexClipIcon)" opacity="0.35">
-    <path d="M 5 92 Q 45 68 62 86 Q 82 106 118 82" fill="none" stroke="#2E6171" stroke-width="3"/>
-    <path d="M 5 106 Q 45 84 62 100 Q 82 118 118 98" fill="none" stroke="#2E6171" stroke-width="2.4"/>
-  </g>
+    <path fill="url(#forest)" d="M75 198 C119 188 149 171 177 146 C198 127 215 113 237 101 C220 126 214 151 225 176 C235 201 255 225 280 242 C252 241 233 250 218 272 C195 305 196 343 172 374 C154 397 133 407 105 402 C85 389 75 368 75 342 Z"/>
+    <path fill="#1f5134" d="M75 253 C108 244 135 245 153 261 C174 280 174 313 158 347 C145 375 126 395 105 402 C85 389 75 368 75 342 Z" opacity=".95"/>
 
-  <g stroke="#1F3A5F" stroke-width="2.2">
-    <line x1="49" y1="46" x2="70" y2="49"/>
-    <line x1="49" y1="46" x2="35" y2="70"/>
-    <line x1="35" y1="70" x2="55" y2="82"/>
-    <line x1="55" y1="82" x2="70" y2="49"/>
+    <path fill="url(#sand)" d="M142 430 C174 397 187 358 205 315 C220 279 239 253 269 246 C295 240 317 251 339 262 C357 271 374 274 395 266 L395 465 L142 465 Z"/>
+    <path fill="#bf824b" d="M197 465 C225 433 241 395 254 360 C266 327 285 305 312 301 C339 297 361 312 395 306 L395 465 Z"/>
+    <path fill="#0d365c" d="M248 465 C273 426 297 390 327 374 C350 362 371 363 395 365 L395 465 Z"/>
+
+    <path class="contour" d="M84 204 C119 196 146 179 173 154 C197 132 215 112 235 105"/>
+    <path class="contour" d="M84 244 C116 233 144 236 164 220 C191 199 190 165 211 140 C220 129 229 119 237 106"/>
+    <path class="contour" d="M237 106 C249 116 252 138 269 159 C296 190 327 204 392 197"/>
+    <path class="contour" d="M83 284 C118 270 145 275 168 262 C197 245 211 217 234 207 C252 199 267 209 283 222 C309 243 340 252 393 244"/>
+    <path class="contour" d="M82 331 C111 315 137 316 150 337 C163 359 151 387 119 415"/>
+    <path class="contour" d="M84 371 C105 353 124 350 137 365 C151 381 144 405 119 430"/>
+    <path class="contour" d="M115 418 C151 399 169 363 186 324 C202 285 217 257 244 245 C270 234 294 241 317 253 C343 267 366 270 393 259"/>
+    <path class="contour" d="M143 448 C179 421 194 384 210 347 C226 309 242 282 270 274 C297 266 320 277 341 287 C360 296 377 296 395 290"/>
+    <path class="contour" d="M185 466 C221 437 236 400 251 365 C266 331 284 309 312 305 C339 301 361 316 395 309"/>
+    <path class="contour" d="M229 467 C257 437 275 402 301 383 C327 364 355 360 395 367"/>
   </g>
-  <circle cx="70" cy="49" r="5.6" fill="#BA7B44"/>
-  <circle cx="49" cy="46" r="5.6" fill="#1F3A5F"/>
-  <circle cx="35" cy="70" r="5.6" fill="#3B6EA5"/>
-  <circle cx="55" cy="82" r="5.6" fill="#2E6171"/>
 </svg>
